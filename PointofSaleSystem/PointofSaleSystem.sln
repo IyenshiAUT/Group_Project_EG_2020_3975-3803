@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PointofSaleSystem", "PointofSaleSystem.csproj", "{3F6FCD36-2DE4-47AC-A27B-D2598D5A2079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBusinessProcess", "..\TestBusinessProcess\TestBusinessProcess.csproj", "{996E323C-9233-4C72-9946-7B55010EB605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F6FCD36-2DE4-47AC-A27B-D2598D5A2079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6FCD36-2DE4-47AC-A27B-D2598D5A2079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6FCD36-2DE4-47AC-A27B-D2598D5A2079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6FCD36-2DE4-47AC-A27B-D2598D5A2079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996E323C-9233-4C72-9946-7B55010EB605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996E323C-9233-4C72-9946-7B55010EB605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996E323C-9233-4C72-9946-7B55010EB605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996E323C-9233-4C72-9946-7B55010EB605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {278C1A46-C8A5-4383-B4DC-620D06D0C93D}
+	EndGlobalSection
+EndGlobal

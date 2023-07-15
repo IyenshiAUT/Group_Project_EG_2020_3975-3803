@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Add.png" />
+    <None Remove="Assets\Admin.jpg" />
+    <None Remove="Assets\Cart.png" />
+    <None Remove="Assets\ChangePassword.png" />
+    <None Remove="Assets\Delete.png" />
+    <None Remove="Assets\Food.jpg" />
+    <None Remove="Assets\Interface.jpg" />
+    <None Remove="Assets\Order.jpg" />
+    <None Remove="Assets\User.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="xunit" Version="2.4.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Add.png" />
+    <Resource Include="Assets\Admin.jpg" />
+    <Resource Include="Assets\Cart.png" />
+    <Resource Include="Assets\ChangePassword.png" />
+    <Resource Include="Assets\Delete.png" />
+    <Resource Include="Assets\Food.jpg" />
+    <Resource Include="Assets\Interface.jpg" />
+    <Resource Include="Assets\Order.jpg" />
+    <Resource Include="Assets\User.jpg" />
+  </ItemGroup>
+
+</Project>

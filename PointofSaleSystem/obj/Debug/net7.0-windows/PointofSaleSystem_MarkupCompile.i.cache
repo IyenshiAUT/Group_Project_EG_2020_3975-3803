@@ -1,0 +1,20 @@
+﻿PointofSaleSystem
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Taneesha\3rd Semester\Group Project Duet\Group\PointofSaleSystem\obj\Debug\net7.0-windows\
+PointofSaleSystem
+none
+false
+TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+D:\Taneesha\3rd Semester\Group Project Duet\Group\PointofSaleSystem\App.xaml
+12911930481
+
+40-158438567
+221250135880
+MainWindow.xaml;Windows\AddUser.xaml;Windows\Admin.xaml;Windows\AllOrders.xaml;Windows\ChangePasswordAdmin.xaml;Windows\ChangePasswordUser.xaml;Windows\Food.xaml;Windows\LoginAdmin.xaml;Windows\LoginUser.xaml;Windows\Order.xaml;Windows\RemoveUser.xaml;Windows\User.xaml;
+
+False
+
